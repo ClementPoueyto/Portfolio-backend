@@ -15,7 +15,7 @@
       "created": "2019-12-25T22:15:51.484120Z",
       "image": "icon-polyquiz.PNG",
       "github": "https://github.com/2019-2020-ps6/2019-2020-ps6-rendu-zecommit",
-      "link":"/assets/apps/polyquiz/index.html",
+      "link":"/apps/polyquiz/index.html",
       "messageLink":"Aller sur le site"
 },
 {
@@ -26,7 +26,7 @@
       "created": "2019-12-25T22:15:51.484120Z",
       "image": "Geome3dash.PNG",
       "github": "https://github.com/ClementPoueyto/ThePlaceToBe",
-    "link":"/assets/apps/geome3dash/index.html",
+    "link":"/apps/geome3dash/index.html",
       "messageLink":"Jouer"
 },
 {
@@ -66,7 +66,7 @@
         "created": "2019-12-25T22:02:01.959263Z",
         "image": "pico8.jpeg",
         "github": "https://github.com/ClementPoueyto/Eat-n-slide_pico8",
-        "link":"/assets/apps/eat-n-slide/index.html",
+        "link":"/apps/eat-n-slide/index.html",
         "messageLink":"Jouer"
     },
     {
