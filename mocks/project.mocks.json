@@ -1,0 +1,81 @@
+[{
+      "title": "Projet Java - Qualité Génie Logiciel",
+      "description": "Projet QGL de SI3. Gestion de la navigation d'un bateau sur une carte et d'un équipage afin de franchir des obstacles et atteindre des checkpoints. Utilisation d'outils d'aide à la qualité : Sonar, Travis, PiTest, Junit, principe SOLID",
+      "place": "Polytech Nice Sophia",
+      "date": "janvier-mai 2020",
+      "created": "2019-12-25T22:15:51.484120Z",
+      "image": "icon-qgl-project.PNG",
+      "github": "https://github.com/ClementPoueyto/QGL-SI3"
+},
+{
+      "title": "Quiz pour EHPAD - polyquiz",
+      "description": "Développement d'un site web sous forme de quiz à destination d'un EHPAD prenant en compte différents handicaps",
+      "place": "Polytech Nice Sophia",
+      "date": "janvier-mai 2020",
+      "created": "2019-12-25T22:15:51.484120Z",
+      "image": "icon-polyquiz.PNG",
+      "github": "https://github.com/2019-2020-ps6/2019-2020-ps6-rendu-zecommit",
+    "link":"/apps/polyquiz/index.html",
+      "messageLink":"Aller sur le site"
+},
+{
+      "title": "Jeu 3D - Geome3Dash - Babylon js",
+      "description": "Développement d'un jeu video en 3D lors du concours Games on Web 2020 de CGI. Projet réalisé avec Javascript en utilisant Babylon JS.",
+      "place": "CGI Games on Web : Concours de programmation avec l'Université Côte d'Azur",
+      "date": "janvier - mars 2019",
+      "created": "2019-12-25T22:15:51.484120Z",
+      "image": "Geome3dash.PNG",
+      "github": "https://github.com/ClementPoueyto/ThePlaceToBe",
+    "link":"/assets/apps/geome3dash/index.html",
+      "messageLink":"Jouer"
+},
+{
+      "title": "Sujet Hashcode Qualification 2018 variante",
+      "description": "Elaboration d'une solution du sujet de qualification de la Hashcode 2018 en Java. Utilisation d'un algorithme glouton et d'un benchmark.",
+      "place": "Polytech Nice Sophia",
+      "date": "décembre 2019",
+      "created": "2019-12-25T22:15:51.484120Z",
+      "image": "sujetHashcodePS5.png",
+      "github": "https://github.com/ClementPoueyto/Sujet-Hashcode-Qualification-2018-variante-SI3"
+},
+    {
+        "title": "Projet Java - Citadelles",
+        "description": "Reproduction du jeu de société Citadelles. Implémentation en Java sans interface graphique .Gestion d'une Intelligence Artificielle avec plusieurs stratégies",
+        "place": "Polytech Nice Sophia",
+        "date": "octobre - novembre 2019",
+        "created": "2019-12-25T22:15:51.484120Z",
+        "image": "citadelles--4eme-ed--p-image-68422-grande.jpg",
+        "github": "https://github.com/ClementPoueyto/Projet-Citadelles---SI3"
+    },
+    {
+        "title": "Application Android Flutter - Groop",
+        "description": "Découverte du framework Flutter. Conception et développement d'une application sur android. Mini réseau social de création d’événements.",
+        "place": "Projet personnel",
+        "date": "été 2019",
+        "created": "2019-12-25T22:10:17.069600Z",
+        "image": "carre.PNG",
+        "github":"https://github.com/ClementPoueyto/Android_app_GROOP",
+        "link": "https://play.google.com/store/apps/details?id=com.mencelt.flutter_groop&hl=fr",
+        "messageLink":"Télécharger"
+    },
+    {
+        "title": "Jeu Retro Gaming - Eat'n Slide - Pico 8",
+        "description": "Réalisation d'un jeu retro gaming pour la console virtuelle pico-8 lors du concours  de CGI.",
+        "place": "Retro Gaming : Concours de programmation avec l'Université Côte d'Azur",
+        "date": "mars 2019 - avril 2019",
+        "created": "2019-12-25T22:02:01.959263Z",
+        "image": "pico8.jpeg",
+        "github": "https://github.com/ClementPoueyto/Eat-n-slide_pico8",
+        "link":"/assets/apps/eat-n-slide/index.html",
+        "messageLink":"Jouer"
+    },
+    {
+        "title": "Projet Arduino - Distributeur Snack",
+        "description": "Distributeur automatique snack incluant un monnayeur. Détection des pièces, de la valeur jusqu'à la vente du produit. Conception et réalisation complète de la machine. Langage Arduino (proche du C/C++)",
+        "place": "PeiP Polytech Nice Sophia",
+        "date": "décembre 2018 - mars 2019",
+        "created": "2019-12-25T21:52:17.297149Z",
+        "image": "distributeur.jpg",
+        "github": "https://github.com/ClementPoueyto/PeiP2_Projet_Arduino"
+    }
+]

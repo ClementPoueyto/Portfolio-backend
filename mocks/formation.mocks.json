@@ -1,0 +1,26 @@
+[
+    {
+        "title": "École d'ingénieur - Sciences Informatiques Polytech Nice",
+        "description": "Apprentissage des bases en informatique au niveau théorique et logique, programmation, réseau, base de données, algorithmique, système, web, génie logiciel.",
+        "place": "Sophia antipolis",
+        "period": "Depuis septembre 2019",
+        "created": "2019-12-25T21:36:52.330292Z",
+        "image": "polytech-nice-presentation2019.jpg"
+    },
+    {
+        "title": "PeiP Polytech Nice Sophia",
+        "description": "École préparatoire intégrée En vue d’une intégration en école d’ingénieur à Polytech Nice.",
+        "place": "Sophia antipolis",
+        "period": "septembre 2017- juin 2019",
+        "created": "2019-12-25T21:32:57.307620Z",
+        "image": "peip.jfif"
+    },
+    {
+        "title": "Lycée Notre Dame",
+        "description": "Baccalauréat Série Scientifique option Maths",
+        "place": "Toulon",
+        "period": "septembre 2014 - juin 2017",
+        "created": "2019-12-25T21:28:08.241635Z",
+        "image": "lycee.jpg"
+    }
+]

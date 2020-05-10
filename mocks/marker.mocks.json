@@ -1,0 +1,481 @@
+[
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-115.1485163,36.1672559]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Las Vegas"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-118.2427666,34.0536909]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Los angeles"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-108.276076,45.9645464]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Yellowtsone"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4199061,37.7790262]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"San-Franscico"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-109.5462146,38.5738096]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Moab"
+  
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-112.0984941,36.0965604]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Grand Canyon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-110.1108327,36.9820026]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Monument Valley"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-112.1592318,37.6139944]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Arche Utah"
+  }
+ }
+
+ ,
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [64.4231326,39.7675529]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Bukhara"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [66.9756954,39.6550017]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Samarkand"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [69.2787079,41.3123363]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Tashkent"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.3506746,40.7833471]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Andijan"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.8033618,40.5361899]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Osh"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [73.2978049,40.7707645]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Uzgen"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.9981116,40.9326849]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Djalalabad"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.1749278,41.5603295]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Ak-jol"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [71.8982006,41.9510365]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Sary Chelek"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [78.7980703,42.5003889]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Toktogul"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [74.1595336,41.9518925]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Kyzyl oi"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [75.1551052,41.841375]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Son-Kol"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [75.7514736,42.2117439]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Kochkor"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [77.5095772,42.087024]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Tamga"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [78.3901729,42.4916808]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Karakol"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [74.6070079,42.8765615]
+  },
+  "properties":{
+    "trip":"Ouzbekistan et Khirghisiztan",
+    "place":"Bishkek"
+  }
+ }
+
+
+ ,
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [151.2164539,-33.8548157]
+  },
+  "properties":{
+    "trip":"Australie",
+    "place":"Sydney"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [149.1012676,-35.2975906]
+  },
+  "properties":{
+    "trip":"Australie",
+    "place":"Canberra"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [145.7721854,-16.9206657]
+  },
+  "properties":{
+    "trip":"Australie",
+    "place":"Cairns"
+  }
+ }
+
+
+ ,
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [114.1628131,22.2793278]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"HongKong"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [116.3912757,39.906217]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"Pekin",
+    "image":"UC4A0428.jpg"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [113.2592945,23.1301964]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"Canton",
+    "image":"UC4A3069.jpg"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [99.7352872,27.8384851]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"Shangri-la",
+    "image":"UC4A1947.jpg"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [108.9365887,34.3468421]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"Xian",
+    "image":"UC4A1434.jpg"
+  }
+ }
+
+
+ ,
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.9304919,43.1257311]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Toulon"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.2683912,43.7009358]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Nice"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.3699525,43.2961743]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Marseille"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.3514616,48.8566969]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Paris"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [1.4442469,43.6044622]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Toulouse"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [3.0305966,42.6722942]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Hossegor"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-2.6841473,48.1628283]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Bretagne"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-3.7035825,40.4167047]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Madrid"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.1774322,41.3828939]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Barcelone"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1276474,51.5073219]
+  },
+  "properties":{
+    "trip":"Europe",
+    "place":"Londres"
+  }
+ }
+
+]
