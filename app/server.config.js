@@ -1,4 +1,4 @@
-const serverUrl = () => { return "http://localhost:5000/" }
-const serverUrlImage = () => { return "http://localhost:5000/uploads/" }
+const serverUrl = () => { return "https://portfolio--backend.herokuapp.com/" }
+const serverUrlImage = () => { return "https://portfolio--backend.herokuapp.com/uploads/" }
 
 module.exports = { serverUrl,serverUrlImage }
