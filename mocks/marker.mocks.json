@@ -98,7 +98,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Bukhara"
+    "place":"Bukhara",
+    "image":"DSC00220.JPG"
   }
  },
  {
@@ -109,7 +110,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Samarkand"
+    "place":"Samarkand",
+    "image":"DSC00167.JPG"
   }
  },
  {
@@ -120,7 +122,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Tashkent"
+    "place":"Tashkent",
+    "image":"ouzbequistan kirghistan 305.JPG"
   }
  },
  {
@@ -131,7 +134,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Andijan"
+    "place":"Andijan",
+    "image":"ouzbequistan kirghistan 273.JPG"
   }
  },
  {
@@ -142,7 +146,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Osh"
+    "place":"Osh",
+    "image":"ouzbequistan kirghistan 340.JPG"
   }
  },
  {
@@ -153,7 +158,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Uzgen"
+    "place":"Uzgen",
+    "image":"ouzbequistan kirghistan 347.JPG"
   }
  },
  {
@@ -164,7 +170,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Djalalabad"
+    "place":"Djalalabad",
+    "image":"8d0541fc-efa2.JPG"
   }
  },
  {
@@ -175,7 +182,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Ak-jol"
+    "place":"Ak-jol",
+    "image":"8936a836-e8f1-4f23.JPG"
   }
  },
  {
@@ -186,7 +194,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Sary Chelek"
+    "place":"Sary Chelek",
+    "image":"8936a836-e8f1-4f23.JPG"
   }
  },
  {
@@ -197,7 +206,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Toktogul"
+    "place":"Toktogul",
+    "image":"5707a8bc-4ddb-47ba.JPG"
   }
  },
  {
@@ -208,7 +218,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Kyzyl oi"
+    "place":"Kyzyl oi",
+    "image":"DSC00603.JPG"
   }
  },
  {
@@ -219,7 +230,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Son-Kol"
+    "place":"Son-Kol",
+    "image":"DSC00663.JPG"
   }
  },
  {
@@ -230,7 +242,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Kochkor"
+    "place":"Kochkor",
+    "image":"DSC00640.JPG"
   }
  },
  {
@@ -241,7 +254,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Tamga"
+    "place":"Tamga",
+    "image":"778c00fc-dd9e-4d2f-b2c0.JPG"
   }
  },
  {
@@ -252,7 +266,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Karakol"
+    "place":"Karakol",
+    "image":"75abe22c-b43a-46ff.JPG"
   }
  },
  {
@@ -263,7 +278,8 @@
   },
   "properties":{
     "trip":"Ouzbekistan et Khirghisiztan",
-    "place":"Bishkek"
+    "place":"Bishkek",
+    "image":"DSC00859.JPG"
   }
  }
 
