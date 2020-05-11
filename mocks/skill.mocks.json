@@ -44,7 +44,7 @@
         "description": "ecole",
         "image": "sql.png",
         "created": "2019-12-25T19:44:12.912357Z",
-        "pourcentage": "85",
+        "pourcentage": "100",
         "skillType":"Tool"
     },
     {
@@ -52,7 +52,7 @@
         "description": "ecole",
         "image": "angular.png",
         "created": "2019-12-25T19:41:36.854838Z",
-        "pourcentage": "50",
+        "pourcentage": "100",
         "skillType":"Tool"
 
     },
@@ -61,7 +61,7 @@
         "description": "projet application",
         "image": "flutter.png",
         "created": "2019-12-25T19:39:26.619578Z",
-        "pourcentage": "65",
+        "pourcentage": "100",
         "skillType":"Tool"
 
     },
@@ -70,7 +70,7 @@
         "description": "ecole test",
         "image": "junit.png",
         "created": "2019-12-25T19:37:44.224749Z",
-        "pourcentage": "65",
+        "pourcentage": "100",
         "skillType":"Tool"
 
     },
@@ -79,7 +79,7 @@
         "description": "ecole",
         "image": "java.png",
         "created": "2019-12-25T19:34:26.301864Z",
-        "pourcentage": "80",
+        "pourcentage": "100",
         "skillType":"ProgLanguage"
 
     },
@@ -88,7 +88,7 @@
         "description": "ecole",
         "image": "hiclipart.com.png",
         "created": "2019-12-25T19:33:00.829745Z",
-        "pourcentage": "55",
+        "pourcentage": "100",
         "skillType":"ProgLanguage"
 
     },
@@ -97,7 +97,7 @@
         "description": "ecole",
         "image": "php.png",
         "created": "2019-12-25T19:25:41.777709Z",
-        "pourcentage": "40",
+        "pourcentage": "100",
         "skillType":"ProgLanguage"
 
     },
@@ -106,7 +106,7 @@
         "description": "perso",
         "image": "python.png",
         "created": "2019-12-25T19:06:56.331888Z",
-        "pourcentage": "40",
+        "pourcentage": "100",
         "skillType":"ProgLanguage"
 
     },
@@ -115,7 +115,7 @@
         "description": "ecole",
         "image": "pngguru.com.png",
         "created": "2019-12-25T19:00:35.198073Z",
-        "pourcentage": "50",
+        "pourcentage": "100",
         "skillType":"ProgLanguage"
 
     },
@@ -133,7 +133,7 @@
         "description": "TOEIC",
         "image": "united-kingdom-flag-round-large.png",
         "created": "2019-12-25T18:35:37.100075Z",
-        "pourcentage": "65",
+        "pourcentage": "100",
         "skillType":"SpokenLanguage"
 
     },
@@ -142,7 +142,7 @@
         "description": "ecole",
         "image": "github.png",
         "created": "2019-12-27T19:33:00.829745Z",
-        "pourcentage": "60",
+        "pourcentage": "100",
         "skillType":"Tool"
 
     }
