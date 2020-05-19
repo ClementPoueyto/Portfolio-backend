@@ -29,6 +29,7 @@ router.get('/:formationId', (req, res) => {
   }
 })
 
+/*
 router.post('/', (req, res) => {
   try {
     const formation = Formation.create({ ...req.body })
@@ -57,5 +58,6 @@ router.put('/:formationId', (req, res) => {
     res.status(404).json(err)
   }
 })
+*/
 
 module.exports = router

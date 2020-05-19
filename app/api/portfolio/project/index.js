@@ -28,7 +28,7 @@ router.get('/:projectId', (req, res) => {
     res.status(404).json(err)
   }
 })
-
+/*
 router.post('/', (req, res) => {
   try {
     const project = Project.create({ ...req.body })
@@ -57,5 +57,6 @@ router.put('/:projectId', (req, res) => {
     res.status(404).json(err)
   }
 })
+*/
 
 module.exports = router

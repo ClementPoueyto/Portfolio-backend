@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
   })
 
 
-
+/*
 router.post('/', (req, res) => {
   try {
     const profile = Profile.create({ ...req.body })
@@ -41,5 +41,5 @@ router.put('/', (req, res) => {
     res.status(404).json(err)
   }
 })
-
+*/
 module.exports = router

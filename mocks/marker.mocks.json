@@ -1,4 +1,15 @@
 [
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-118.2427666,34.0536909]
+    },
+    "properties":{
+      "trip":"Etats-Unis",
+      "place":"Los angeles"
+    }
+  },
  {
   "type": "Feature",
   "geometry": {
@@ -14,45 +25,11 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [-118.2427666,34.0536909]
+    "coordinates": [-112.1592318,37.6139944]
   },
   "properties":{
     "trip":"Etats-Unis",
-    "place":"Los angeles"
-  }
- },
- {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [-108.276076,45.9645464]
-  },
-  "properties":{
-    "trip":"Etats-Unis",
-    "place":"Yellowtsone"
-  }
- },
- {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [-122.4199061,37.7790262]
-  },
-  "properties":{
-    "trip":"Etats-Unis",
-    "place":"San-Franscico"
-  }
- },
- {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [-109.5462146,38.5738096]
-  },
-  "properties":{
-    "trip":"Etats-Unis",
-    "place":"Moab"
-  
+    "place":"Arche Utah"
   }
  },
  {
@@ -81,11 +58,35 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [-112.1592318,37.6139944]
+    "coordinates": [-109.5462146,38.5738096]
   },
   "properties":{
     "trip":"Etats-Unis",
-    "place":"Arche Utah"
+    "place":"Moab"
+  
+  }
+ },
+
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-108.276076,45.9645464]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"Yellowtsone"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4199061,37.7790262]
+  },
+  "properties":{
+    "trip":"Etats-Unis",
+    "place":"San-Franscico"
   }
  }
 
@@ -311,6 +312,17 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
+    "coordinates": [131.0369615,-25.3455545]
+  },
+  "properties":{
+    "trip":"Australie",
+    "place":"Uluru"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
     "coordinates": [145.7721854,-16.9206657]
   },
   "properties":{
@@ -325,23 +337,23 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [114.1628131,22.2793278]
-  },
-  "properties":{
-    "trip":"Chine",
-    "place":"HongKong"
-  }
- },
- {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
     "coordinates": [116.3912757,39.906217]
   },
   "properties":{
     "trip":"Chine",
     "place":"Pekin",
     "image":"UC4A0428.JPG"
+  }
+ },
+ {
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [114.1628131,22.2793278]
+  },
+  "properties":{
+    "trip":"Chine",
+    "place":"HongKong"
   }
  },
  {
@@ -442,7 +454,7 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [3.0305966,42.6722942]
+    "coordinates": [-1.4327651,43.6248542]
   },
   "properties":{
     "trip":"Europe",

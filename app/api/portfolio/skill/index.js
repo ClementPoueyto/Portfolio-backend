@@ -28,6 +28,7 @@ router.get('/:skillId', (req, res) => {
   }
 })
 
+/*
 router.post('/', (req, res) => {
   try {
     const skill = Skill.create({ ...req.body })
@@ -56,5 +57,5 @@ router.put('/:skillId', (req, res) => {
     res.status(404).json(err)
   }
 })
-
+*/
 module.exports = router

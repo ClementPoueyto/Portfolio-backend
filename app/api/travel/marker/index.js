@@ -34,6 +34,7 @@ router.get('/:markerId', (req, res) => {
   }
 })
 
+/*
 router.post('/', (req, res) => {
   try {
     const marker = Marker.create({ ...req.body })
@@ -62,5 +63,5 @@ router.put('/:markerId', (req, res) => {
     res.status(404).json(err)
   }
 })
-
+*/
 module.exports = router
