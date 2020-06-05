@@ -1,4 +1,13 @@
 [{
+    "title": "Projet Innovation Recherche - Puzzle connecté",
+    "description": "Projet innovation de SI3. Projet de recherche sur un puzzle connecté réutilisable à l'infini à destination d'entreprises ou d'EHPAD.",
+    "place": "Polytech Nice Sophia",
+    "date": "mai 2020",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "icon-qgl-project.PNG",
+    "github": "/assets/docs/Innov.pdf"
+},
+    {
       "title": "Projet Java - Qualité Génie Logiciel",
       "description": "Projet QGL de SI3. Gestion de la navigation d'un bateau sur une carte et d'un équipage afin de franchir des obstacles et atteindre des checkpoints. Utilisation d'outils d'aide à la qualité : Sonar, Travis, PiTest, Junit, principe SOLID",
       "place": "Polytech Nice Sophia",
