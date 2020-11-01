@@ -16,7 +16,7 @@
   "skillType":"Tool"
 },
 {
-  "title": "travis",
+  "title": "pitest",
   "description": "ecole",
   "image": "pitest.png",
   "created": "2019-12-25T19:44:12.912357Z",
@@ -60,6 +60,15 @@
         "title": "flutter",
         "description": "projet application",
         "image": "flutter.png",
+        "created": "2019-12-25T19:39:26.619578Z",
+        "pourcentage": "100",
+        "skillType":"Tool"
+
+    },
+    {
+        "title": "reactjs",
+        "description": "projet application",
+        "image": "react.png",
         "created": "2019-12-25T19:39:26.619578Z",
         "pourcentage": "100",
         "skillType":"Tool"
@@ -114,6 +123,15 @@
         "title": "C",
         "description": "ecole",
         "image": "pngguru.com.png",
+        "created": "2019-12-25T19:00:35.198073Z",
+        "pourcentage": "100",
+        "skillType":"ProgLanguage"
+
+    },
+    {
+        "title": "C++",
+        "description": "ecole",
+        "image": "cpp.png",
         "created": "2019-12-25T19:00:35.198073Z",
         "pourcentage": "100",
         "skillType":"ProgLanguage"

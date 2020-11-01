@@ -1,4 +1,11 @@
-[
+[   {
+        "title": "Alternance - Développeur Full Stack et Responsable de projet - ProBTP",
+        "description": "Developpement et gestion du projet d'un référentiel EDI :  La mission est de créer une application permettant de centraliser toutes les informations de configuration pour gérer les flux de l'entreprise",
+        "place": "Cagnes sur mer",
+        "period": "Depuis Août 2020",
+        "created": "2019-12-25T21:36:52.330292Z",
+        "image": "probtp.jpg"
+    },
     {
         "title": "École d'ingénieur - Sciences Informatiques Polytech Nice",
         "description": "Apprentissage des bases en informatique au niveau théorique et logique, programmation, réseau, base de données, algorithmique, système, web, génie logiciel.",
