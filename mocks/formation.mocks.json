@@ -1,6 +1,6 @@
 [   {
-        "title": "Alternance - Développeur Full Stack et Responsable de projet - ProBTP",
-        "description": "Developpement et gestion du projet d'un référentiel EDI :  La mission est de créer une application permettant de centraliser toutes les informations de configuration pour gérer les flux de l'entreprise",
+        "title": "Alternance - Développeur Full Stack et gestion de projet - ProBTP",
+        "description": "Conception, developpement et gestion du projet d'un référentiel EDI :  La mission est de créer une application permettant de centraliser toutes les informations de configuration pour gérer les flux de l'entreprise",
         "place": "Cagnes sur mer",
         "period": "Depuis Août 2020",
         "created": "2019-12-25T21:36:52.330292Z",
@@ -9,7 +9,7 @@
     {
         "title": "École d'ingénieur - Sciences Informatiques Polytech Nice",
         "description": "Apprentissage des bases en informatique au niveau théorique et logique, programmation, réseau, base de données, algorithmique, système, web, génie logiciel.",
-        "place": "Sophia antipolis",
+        "place": "Sophia Antipolis",
         "period": "Depuis septembre 2019",
         "created": "2019-12-25T21:36:52.330292Z",
         "image": "polytech-nice-presentation2019.jpg"
@@ -17,7 +17,7 @@
     {
         "title": "PeiP Polytech Nice Sophia",
         "description": "École préparatoire intégrée En vue d’une intégration en école d’ingénieur à Polytech Nice.",
-        "place": "Sophia antipolis",
+        "place": "Sophia Antipolis",
         "period": "septembre 2017- juin 2019",
         "created": "2019-12-25T21:32:57.307620Z",
         "image": "peip.jfif"

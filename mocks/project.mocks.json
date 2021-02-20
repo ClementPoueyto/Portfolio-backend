@@ -1,4 +1,20 @@
 [{
+    "title": "PolyVille Active - Architecture logicielle et objets connectés",
+    "description": "Projet du semestre 7 mélangeant l'Architecture logicielle et les objets connectés. Application mobile et web permettant d'indiquer les transports en communs à utiliser pour se déplacer en prenant en compte les incidents dans la ville.",
+    "place": "Polytech Nice Sophia",
+    "date": "décembre 2020-janvier 2021",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "ps7.PNG",
+    "github": "https://github.com/ClementPoueyto/SI4-PS7_AL_IAM3"
+},{
+    "title": "CookieFactory - Conception logicielle",
+    "description": "CookieFactory est un projet réalisé dans le cadre du cours conception logicielle. Conception de l'architecture du projet en utilisant des diagrammes de cas d'utilisation et de classes.",
+    "place": "Polytech Nice Sophia",
+    "date": "septembre-octobre 2020",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "cookiefactory.PNG",
+    "github": "https://github.com/ClementPoueyto/SI4-ConceptionCookieFactory"
+},{
     "title": "Memories - Application Flutter",
     "description": "Memories est un projet personnel réalisé avec Flutter disponible sur Android. C'est un réseau social permettant de créer et partager des souvenirs d'une journée.",
     "place": "Projet personnel",

@@ -13,7 +13,7 @@
   "image": "node-js.png",
   "created": "2019-12-25T19:44:12.912357Z",
   "pourcentage": "100",
-  "skillType":"Tool"
+  "skillType":"Frameworks"
 },
 {
   "title": "pitest",
@@ -45,7 +45,7 @@
         "image": "sql.png",
         "created": "2019-12-25T19:44:12.912357Z",
         "pourcentage": "100",
-        "skillType":"Tool"
+        "skillType":"ProgLanguage"
     },
     {
         "title": "angular",
@@ -53,7 +53,7 @@
         "image": "angular.png",
         "created": "2019-12-25T19:41:36.854838Z",
         "pourcentage": "100",
-        "skillType":"Tool"
+        "skillType":"Frameworks"
 
     },
     {
@@ -62,7 +62,7 @@
         "image": "flutter.png",
         "created": "2019-12-25T19:39:26.619578Z",
         "pourcentage": "100",
-        "skillType":"Tool"
+        "skillType":"Frameworks"
 
     },
     {
@@ -71,7 +71,7 @@
         "image": "react.png",
         "created": "2019-12-25T19:39:26.619578Z",
         "pourcentage": "100",
-        "skillType":"Tool"
+        "skillType":"Frameworks"
 
     },
     {
