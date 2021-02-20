@@ -24,6 +24,14 @@
   "skillType":"Tool"
 },
 {
+    "title": "cucumber",
+    "description": "ecole",
+    "image": "cucumber.png",
+    "created": "2019-12-25T19:44:12.912357Z",
+    "pourcentage": "100",
+    "skillType":"Tool"
+  },
+{
   "title": "travis",
   "description": "ecole",
   "image": "travis.png",
@@ -38,6 +46,22 @@
   "created": "2019-12-25T19:44:12.912357Z",
   "pourcentage": "100",
   "skillType":"Tool"
+},
+{
+    "title": "spring",
+    "description": "ecole",
+    "image": "spring.png",
+    "created": "2019-12-25T19:44:12.912357Z",
+    "pourcentage": "100",
+    "skillType":"Frameworks"
+},
+{
+    "title": "JEE",
+    "description": "ecole",
+    "image": "jee.png",
+    "created": "2019-12-25T19:44:12.912357Z",
+    "pourcentage": "100",
+    "skillType":"Frameworks"
 },
     {
         "title": "sql",
