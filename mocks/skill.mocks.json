@@ -40,6 +40,14 @@
   "skillType":"Tool"
 },
 {
+    "title": "jenkins",
+    "description": "ecole",
+    "image": "jenkins.png",
+    "created": "2019-12-25T19:44:12.912357Z",
+    "pourcentage": "100",
+    "skillType":"Tool"
+  },
+{
   "title": "sonarqube",
   "description": "ecole",
   "image": "sonarqube.png",

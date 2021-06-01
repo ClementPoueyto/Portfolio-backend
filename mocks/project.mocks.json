@@ -1,4 +1,28 @@
 [{
+    "title": "Castexski - Architecture logicielle - Devops",
+    "description": "Conception et developpement du systeme informatisé d'une station de ski, de l'achat de forfait jusqu'à la validation à une borne de remontée mécanique. Utilisation d'OpenJPA, JEE et d'outils comme Maven, Docker, TomEE.  ",
+    "place": "Polytech Nice Sophia",
+    "date": "janvier 2021 - mai 2021",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "castexski.PNG",
+    "github": "https://github.com/ClementPoueyto/SI4-ISA-DEVOPS-Castexski"
+},{
+    "title": "Breakout - Intelligence artificielle",
+    "description": "Reinforcement Learning du jeu Casse Brique en Python avec Tensorflow. L'IA joue et apprend afin d'ameliorer son comportement.",
+    "place": "Polytech Nice Sophia",
+    "date": "mai 2021",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "breakout.PNG",
+    "github": "https://github.com/ClementPoueyto/SI4-IA-Breakout"
+},{
+    "title": "Let's Go Biking - Service oriented computing",
+    "description": "Projet C# utilisant l'API JCDECAUX afin de trouver des stations de location de vélos entre deux adresses.",
+    "place": "Polytech Nice Sophia",
+    "date": "mai 2021",
+    "created": "2019-12-25T22:15:51.484120Z",
+    "image": "biking.PNG",
+    "github": "https://github.com/ClementPoueyto/SI4-SOC_Biking"
+},{
     "title": "PolyVille Active - Architecture logicielle et objets connectés",
     "description": "Projet du semestre 7 mélangeant l'Architecture logicielle et les objets connectés. Application mobile et web permettant d'indiquer les transports en communs à utiliser pour se déplacer en prenant en compte les incidents dans la ville.",
     "place": "Polytech Nice Sophia",
