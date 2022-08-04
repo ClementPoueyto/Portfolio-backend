@@ -17,7 +17,10 @@ export class Project extends BaseEntity{
   public projectType: string;
 
   @Column(()=> Link)
-  public links : Link[]
+  public github : Link
+
+  @Column(()=> Link)
+  public link : Link
 
   @JoinColumn({ name: 'imageId' })
   @OneToOne(

@@ -1,6 +1,7 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { ContactDto } from "./contact.dto";
 import { LinkDto } from "../../shared/dto/link.dto";
+import { Link } from "../../shared/embedded/link.embedded";
 
 export class CreateProfileDto{
 
@@ -22,8 +23,9 @@ export class CreateProfileDto{
     @ApiProperty()
     public contact : ContactDto
   
-    @ApiProperty({
-      isArray: true,
-    type: LinkDto})
-    public links : LinkDto[]
+    @ApiProperty()
+    public github : LinkDto
+  
+    @ApiProperty()
+    public linkedin : LinkDto
 }

@@ -24,7 +24,10 @@ export class Profile extends BaseEntity{
   public contact : Contact
 
   @Column(()=> Link)
-  public links : Link[]
+  public github : Link
+
+  @Column(()=> Link)
+  public linkedin : Link
 
   @JoinColumn({ name: 'avatarId' })
   @OneToOne(

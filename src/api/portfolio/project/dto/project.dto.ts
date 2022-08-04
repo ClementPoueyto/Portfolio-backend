@@ -22,8 +22,11 @@ export class ProjectDto {
     public projectType: ProjectType;
   
     @ApiProperty()
-    public links : LinkDto[]
+    public github : LinkDto
   
+    @ApiProperty()
+    public link : LinkDto
+
     @ApiProperty()
     public startDate: Date;
   

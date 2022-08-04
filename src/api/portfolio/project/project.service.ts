@@ -50,7 +50,9 @@ async addProject(createProject : CreateProjectDto) : Promise<Project>{
     project.startDate = createProject.startDate;
     project.endDate = createProject.endDate;
     project.projectType = createProject.projectType;
-    project.links = createProject.links;
+    project.github = createProject.github;
+    project.link = createProject.link;
+
     project.createdAt = new Date();
 
     const projectCreated = Project.save(project);
@@ -64,8 +66,8 @@ async updateProject(projectId : number,updateProject : CreateProjectDto) : Promi
   project.description = updateProject.description;
   project.startDate = updateProject.startDate;
   project.endDate = updateProject.endDate;
-  project.projectType = updateProject.projectType;
-  project.links = updateProject.links;
+  project.github = updateProject.github;
+  project.link = updateProject.link;
     Project.update(projectId,project);
     return project;
 }

@@ -21,7 +21,7 @@ export class Experience extends BaseEntity{
   public experienceType: ExperienceType;
 
   @Column(()=> Link)
-  public link : Link
+  public link? : Link
 
   @JoinColumn({ name: 'imageId' })
   @OneToOne(

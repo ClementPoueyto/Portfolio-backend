@@ -10,6 +10,7 @@ async function bootstrap() {
   // TYPE ORM
   const config: ConfigService = app.get(ConfigService);
   const port: number = config.get<number>('PORT');
+  app.enableCors();
 
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalInterceptors(

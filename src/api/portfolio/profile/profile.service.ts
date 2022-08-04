@@ -35,7 +35,8 @@ async addProfile(createProfile : CreateProfileDto) : Promise<Profile>{
     profile.birthDate = createProfile.birthDate;
     profile.createdAt = new Date();
     profile.updatedAt = new Date();
-    profile.links = createProfile.links;
+    profile.github = createProfile.github;
+    profile.linkedin = createProfile.linkedin;
     profile.contact = createProfile.contact;
 
     const userCreated = Profile.save(profile);
@@ -50,7 +51,8 @@ async updateProfile(profileId : number,updateProfile : CreateProfileDto) : Promi
     profile.description = updateProfile.description;
     profile.birthDate = updateProfile.birthDate;
     profile.updatedAt = new Date();
-    profile.links = updateProfile.links;
+    profile.github = updateProfile.github;
+    profile.linkedin = updateProfile.linkedin;
     profile.contact = updateProfile.contact;
 
     Profile.update(profileId,profile);
