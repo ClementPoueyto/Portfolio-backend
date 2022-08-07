@@ -31,6 +31,6 @@ export class User extends BaseEntity{
   public lastLoginAt: Date;
 
   async validatePassword(password: string): Promise<boolean> {
-    return bcrypt.compare(password, this.password);
+    return await bcrypt.compare(password, this.password);
   }
 }

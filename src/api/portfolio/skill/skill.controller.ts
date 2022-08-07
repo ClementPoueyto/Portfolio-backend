@@ -2,7 +2,7 @@ import { Body, Controller, Get, Inject, Param, ParseIntPipe, Post, Put, Query, R
 import { FileInterceptor } from "@nestjs/platform-express";
 import { ApiBearerAuth, ApiBody, ApiConsumes, ApiOkResponse, ApiQuery, ApiTags, ApiUnauthorizedResponse } from "@nestjs/swagger";
 import { JwtAuthGuard } from "../../user/auth/guards/jwt-auth.guards";
-import { CreateSkillDto } from "./dto/create-Skill.dto";
+import { CreateSkillDto } from "./dto/create-skill.dto";
 import { SkillDto } from "./dto/skill.dto";
 import { SkillService } from "./skill.service";
 import { Readable } from 'stream';

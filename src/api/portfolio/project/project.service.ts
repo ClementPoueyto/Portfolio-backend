@@ -68,6 +68,7 @@ async updateProject(projectId : number,updateProject : CreateProjectDto) : Promi
   project.endDate = updateProject.endDate;
   project.github = updateProject.github;
   project.link = updateProject.link;
+  project.projectType = updateProject.projectType
     Project.update(projectId,project);
     return project;
 }

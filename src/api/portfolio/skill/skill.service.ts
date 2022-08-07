@@ -1,6 +1,6 @@
 import { Inject, Injectable, NotFoundException } from "@nestjs/common";
 import DatabaseFilesService from "../../databaseFile/databaseFile.service";
-import { CreateSkillDto } from "./dto/create-Skill.dto";
+import { CreateSkillDto } from "./dto/create-skill.dto";
 import { Skill } from "./entity/skill.entity";
 import { SkillType } from "./skill.enum";
 

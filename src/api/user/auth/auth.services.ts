@@ -33,7 +33,7 @@ export class AuthService {
     const { email, password } = authLoginDto;
     const user = await this.userRepository.findOne({where:{email : email}});
     if(!user) throw new NotFoundException();
-    if (!(user.validatePassword(password))) {
+    if (!await user.validatePassword(password)) {
       throw new UnauthorizedException();
     }
 
