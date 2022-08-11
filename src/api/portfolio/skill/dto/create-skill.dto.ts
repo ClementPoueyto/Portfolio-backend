@@ -11,6 +11,9 @@ export class CreateSkillDto{
     @ApiProperty()
     public description: string;
 
+    @ApiProperty()
+    public display : boolean;
+
     @IsEnum(SkillType, { each: true })
     @ApiProperty({enum: SkillType})
     public skillType: SkillType;

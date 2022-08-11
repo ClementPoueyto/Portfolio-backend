@@ -10,16 +10,17 @@ import { Response } from 'express';
 import { SkillType } from "./skill.enum";
 
 @ApiTags('skill')
-@Controller('api/portfolio')
+@Controller()
 export class SkillController {
   @Inject(SkillService)
   private readonly skillService: SkillService;
 
   @Get('skills')
+  @ApiQuery({ name: 'display',type : Boolean, required:false})
   @ApiQuery({ name: 'type', enum: SkillType , required: false})
   @ApiOkResponse({description: 'Return skills informations', type : Array<SkillDto>})
-  async getSkills(@Query('type') type: SkillType) {
-    const skills = await this.skillService.getSkillsByType(type)
+  async getSkills(@Query('type') type: SkillType, @Query('display') display : boolean) {
+    const skills = await this.skillService.getSkillsByType(type, display)
     return skills.map((s)=> new SkillDto(s));
   }
 

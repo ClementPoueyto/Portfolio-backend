@@ -24,6 +24,9 @@ export class SkillDto {
   public logoId?: number;
 
   @ApiProperty()
+  public display : boolean;
+
+  @ApiProperty()
   public createdAt: Date;
 
 }

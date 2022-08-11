@@ -1,4 +1,5 @@
-import { ConflictException, Injectable, InternalServerErrorException, NotFoundException } from '@nestjs/common';
+import { ConflictException, Inject, Injectable, InternalServerErrorException, NotFoundException, UnauthorizedException } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { CreateUserDto } from './dto/create-user.dto';
 import { User } from './entity/user.entity';
 
@@ -6,7 +7,12 @@ import { User } from './entity/user.entity';
 @Injectable()
 export class UserService {
 
+  @Inject(ConfigService)
+  private readonly config: ConfigService;
+
   async create(createUserDto: CreateUserDto) {
+    const pwdServer = this.config.get<string>('DATABASE_PASSWORD');
+    if(createUserDto.serverPassword!=pwdServer) throw new UnauthorizedException();
     const user = new User();
     user.email = createUserDto.email;
     user.password = createUserDto.password;

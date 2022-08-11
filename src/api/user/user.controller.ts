@@ -5,7 +5,7 @@ import { UserDto } from './dto/user.dto';
 import { UserService } from './user.services';
 
 @ApiTags('user')
-@Controller('api/user')
+@Controller('user')
 export class UserController {
   @Inject(UserService)
   private readonly service: UserService;

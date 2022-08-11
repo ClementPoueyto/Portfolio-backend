@@ -2,6 +2,7 @@ import { ApiProperty } from "@nestjs/swagger";
 import { Project } from "../entity/project.entity";
 import { LinkDto } from "../../shared/dto/link.dto";
 import { ProjectType } from "../project.enum";
+import { SkillDto } from "../../skill/dto/skill.dto";
 
 export class ProjectDto {
 
@@ -35,6 +36,9 @@ export class ProjectDto {
    
     @ApiProperty()
     public imageId?: number;
+
+    @ApiProperty()
+    public tools : SkillDto[]
   
     /*
      * Create and Update Date Columns

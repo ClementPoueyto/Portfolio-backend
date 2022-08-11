@@ -1,4 +1,6 @@
 import { Inject, Injectable, NotFoundException } from "@nestjs/common";
+import { InjectRepository } from "@nestjs/typeorm";
+import { Repository } from "typeorm";
 import DatabaseFilesService from "../../databaseFile/databaseFile.service";
 import { CreateSkillDto } from "./dto/create-skill.dto";
 import { Skill } from "./entity/skill.entity";
@@ -10,6 +12,9 @@ export class SkillService {
   @Inject(DatabaseFilesService)
   private readonly databaseFilesService: DatabaseFilesService;
 
+  @InjectRepository(Skill)
+  private skillRepository: Repository<Skill>
+
   async getSkills() {
     const skills = await Skill.find();  
     if(!skills){
@@ -18,10 +23,10 @@ export class SkillService {
     return skills;
   }
 
-  async getSkillsByType(type:SkillType){
-    if(!type) return this.getSkills();
-    const skill = await Skill.find({where:{skillType:type}});  
-    if(!skill){
+  async getSkillsByType(type:SkillType, display : boolean){
+    if(!type&&!display) return this.getSkills();
+    const skill = await this.skillRepository.find({where:{skillType : type, display : display}});  
+    if(!skill){ 
       throw new NotFoundException();
     }
     return skill;
@@ -30,6 +35,14 @@ export class SkillService {
 
   async getSkill(skillId : number) {
   const skill = await Skill.findOne({where: {id:skillId}});  
+  if(!skill){
+    throw new NotFoundException();
+  }
+  return skill;
+}
+
+async getSkillByName(name : string){
+  const skill = await Skill.findOne({where : { name : name}})
   if(!skill){
     throw new NotFoundException();
   }

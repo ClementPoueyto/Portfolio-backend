@@ -10,7 +10,7 @@ import { ExperienceService } from "./experience.service";
 import { ExperienceType } from "./experience.enum";
 
 @ApiTags('experience')
-@Controller('api/portfolio')
+@Controller()
 export class ExperienceController {
   @Inject(ExperienceService)
   private readonly experienceService: ExperienceService;

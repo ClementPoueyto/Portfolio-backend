@@ -1,6 +1,7 @@
 import { DatabaseFile } from 'src/api/databaseFile/entity/databaseFile.entity';
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, BaseEntity, OneToMany, JoinColumn, OneToOne } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, BaseEntity, OneToMany, JoinColumn, OneToOne, ManyToMany, JoinTable } from 'typeorm';
 import { Link } from '../../shared/embedded/link.embedded';
+import { Skill } from '../../skill/entity/skill.entity';
 
 @Entity()
 export class Project extends BaseEntity{
@@ -30,6 +31,11 @@ export class Project extends BaseEntity{
     }
   )
   public image?: DatabaseFile;
+
+  @ManyToMany(()=> Skill, skill => skill.projects, { eager: true,         cascade: true,
+  })
+  @JoinTable()
+  public tools: Skill[];
 
   @Column({ nullable: true })
   public imageId?: number;

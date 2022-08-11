@@ -9,7 +9,7 @@ import { Readable } from 'stream';
 import { Response } from 'express';
 
 @ApiTags('profile')
-@Controller('api/portfolio')
+@Controller()
 export class ProfileController {
   @Inject(ProfileService)
   private readonly profileService: ProfileService;

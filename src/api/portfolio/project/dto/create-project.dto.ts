@@ -1,6 +1,7 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsEnum } from "class-validator";
 import { LinkDto } from "../../shared/dto/link.dto";
+import { SkillDto } from "../../skill/dto/skill.dto";
 import { ProjectType } from "../project.enum";
 
 export class CreateProjectDto {
@@ -27,5 +28,8 @@ export class CreateProjectDto {
   
     @ApiProperty()
     public endDate: Date;
+
+    @ApiProperty()
+    public tools : string[]
    
 }

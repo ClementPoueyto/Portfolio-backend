@@ -15,4 +15,11 @@ export class CreateUserDto {
   })
   @IsNotEmpty()
   public password: string;
+
+  @ApiProperty({
+    description : 'password of the server',
+    type  :String
+  })
+  @IsNotEmpty()
+  public serverPassword: string;
 }

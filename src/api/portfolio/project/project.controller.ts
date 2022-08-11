@@ -10,7 +10,7 @@ import { CreateProjectDto } from "./dto/create-project.dto";
 import { ProjectType } from "./project.enum";
 
 @ApiTags('project')
-@Controller('api/portfolio')
+@Controller()
 export class ProjectController {
   @Inject(ProjectService)
   private readonly projectService: ProjectService;
@@ -42,7 +42,7 @@ export class ProjectController {
   @Put('projects/:id')
   @ApiBearerAuth()
   @UseGuards(JwtAuthGuard)
-  @ApiOkResponse({description: 'Update project informations', type : ProjectDto})
+  @ApiOkResponse({description: 'Update project informations', type : CreateProjectDto})
   async updateProject(@Param('id', ParseIntPipe) id: number,@Body() body: CreateProjectDto) : Promise<ProjectDto> {
     console.log(body)
     return new ProjectDto(await this.projectService.updateProject(id,body));

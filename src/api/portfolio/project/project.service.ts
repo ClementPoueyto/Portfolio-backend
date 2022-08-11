@@ -1,5 +1,6 @@
 import { Inject, Injectable, NotFoundException } from "@nestjs/common";
 import DatabaseFilesService from "../../databaseFile/databaseFile.service";
+import { SkillService } from "../skill/skill.service";
 import { CreateProjectDto } from "./dto/create-project.dto";
 import { Project } from "./entity/project.entity";
 import { ProjectType } from "./project.enum";
@@ -10,6 +11,9 @@ import { ProjectType } from "./project.enum";
 export class ProjectService {
   @Inject(DatabaseFilesService)
   private readonly databaseFilesService: DatabaseFilesService;
+
+  @Inject(SkillService)
+  private readonly skillService: SkillService;
 
   async getProjects() {
     const project = await Project.find();  
@@ -52,7 +56,16 @@ async addProject(createProject : CreateProjectDto) : Promise<Project>{
     project.projectType = createProject.projectType;
     project.github = createProject.github;
     project.link = createProject.link;
-
+    project.tools = [];
+    for(let tool of createProject.tools){
+      try{
+        const skill = await this.skillService.getSkillByName(tool);
+        project.tools.push(skill);
+      }
+      catch(notFoundException){
+        console.log("not found : "+tool)
+      }
+    }
     project.createdAt = new Date();
 
     const projectCreated = Project.save(project);
@@ -62,14 +75,25 @@ async addProject(createProject : CreateProjectDto) : Promise<Project>{
 async updateProject(projectId : number,updateProject : CreateProjectDto) : Promise<Project>{
   
   const project = await this.getProject(projectId);
+  Project.createQueryBuilder('projects')
   project.title = updateProject.title;
   project.description = updateProject.description;
   project.startDate = updateProject.startDate;
   project.endDate = updateProject.endDate;
   project.github = updateProject.github;
   project.link = updateProject.link;
-  project.projectType = updateProject.projectType
-    Project.update(projectId,project);
+  project.projectType = updateProject.projectType;
+  project.tools = [];
+    for(let tool of updateProject.tools){
+      try{
+        const skill = await this.skillService.getSkillByName(tool);
+        project.tools.push(skill);
+      }
+      catch(notFoundException){
+        console.log("not found : "+tool)
+      }
+    }
+    Project.save(project);
     return project;
 }
 
